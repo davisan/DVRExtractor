@@ -1,31 +1,26 @@
 # DVRExtractor
-
 Página para suporte, sugetões e dúvidas.
 
 Ferramenta para extração de dados de DVR dos sitemas de arquivos DHFS4.1, WFS0.X, HIKVISION, ZENO1.0, RSFS, TVT, QFAT, IFS, JUAN.
 
 Atenção: FFMPEG não está incluído no pacote. É preciso realizar o download e adicionar na mesma pasta do DVRExtractor ou no path do sistema.
 
+## References:
+> Shimabuko A., (2013) Recuperação de vídeo em equipamento DVR. XXII Congresso Nacional de Criminalística. 2013.
 
-=============================================================================
-References:
+> Han J., Jeong D., Lee S. (2015) Analysis of the HIKVISION DVR File System. In: James J., Breitinger F. (eds) Digital Forensics and Cyber Crime. ICDF2C 2015. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 157. Springer, Cham. https://doi.org/10.1007/978-3-319-25512-5_13
 
-[] Shimabuko A., (2013) Recuperação de vídeo em equipamento DVR. XXII Congresso Nacional de Criminalística. 2013.
+> Silva, G. A. (2019). Ingeniería inversa del sistema de archivos de DVRs PCBox. In XVIII Simposio Argentino de Informática y Derecho. 2019. http://sedici.unlp.edu.ar/handle/10915/71847
 
-[] Han J., Jeong D., Lee S. (2015) Analysis of the HIKVISION DVR File System. In: James J., Breitinger F. (eds) Digital Forensics and Cyber Crime. ICDF2C 2015. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 157. Springer, Cham. https://doi.org/10.1007/978-3-319-25512-5_13
-
-[] Silva, G. A. (2019). Ingeniería inversa del sistema de archivos de DVRs PCBox. In XVIII Simposio Argentino de Informática y Derecho. 2019. http://sedici.unlp.edu.ar/handle/10915/71847
-
-[] Recovering video recordings from a video surveillance system using WFS0.4. http://hddmasters.by/articles/vosstanovlenie_iz_videoregistratora_wfs04.html
+> Recovering video recordings from a video surveillance system using WFS0.4. http://hddmasters.by/articles/vosstanovlenie_iz_videoregistratora_wfs04.html
 
 
-=============================================================================
-Third party libraries licenses:
+## Third party libraries licenses:
 
 https://www.sqlite.org/copyright.html
 Public domain
 
------------------------------------------------------------------------------
+---
 https://github.com/jarro2783/cxxopts
 Copyright (c) 2014 Jarryd Beck
 
@@ -47,7 +42,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
------------------------------------------------------------------------------
+---
 https://github.com/vurtun/nuklear
 Copyright (c) 2017 Micha Mettke
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -68,7 +63,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
------------------------------------------------------------------------------
+---
 https://github.com/nlohmann/json
 Copyright (c) 2013-2021 Niels Lohmann
 
@@ -90,7 +85,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
------------------------------------------------------------------------------
+---
 https://github.com/benhoyt/inih
 Copyright (c) 2009, Ben Hoyt
 All rights reserved.
@@ -117,7 +112,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
------------------------------------------------------------------------------
+---
 https://www.openssl.org/source/license.html
 Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
 
@@ -164,13 +159,12 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
 STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================
 
 This product includes cryptographic software written by Eric Young
 (eay@cryptsoft.com).  This product includes software written by Tim
 Hudson (tjh@cryptsoft.com).
 
------------------------------------------------------------------------------
+---
 https://github.com/stbrumme/hash-library
 zlib License
 
@@ -192,7 +186,7 @@ the following restrictions:
    misrepresented as being the original software.
 3. This notice may not be removed or altered from any source distribution.
 
------------------------------------------------------------------------------
+---
 https://github.com/yhirose/cpp-httplib
 
 The MIT License (MIT)
