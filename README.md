@@ -18,10 +18,12 @@ Atenção: FFMPEG não está incluído no pacote. É preciso realizar o download
 ## Third party libraries licenses:
 
 https://www.sqlite.org/copyright.html
+
 Public domain
 
 ---
 https://github.com/jarro2783/cxxopts
+
 Copyright (c) 2014 Jarryd Beck
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -44,6 +46,7 @@ SOFTWARE.
 
 ---
 https://github.com/vurtun/nuklear
+
 Copyright (c) 2017 Micha Mettke
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -65,6 +68,7 @@ SOFTWARE.
 
 ---
 https://github.com/nlohmann/json
+
 Copyright (c) 2013-2021 Niels Lohmann
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -87,6 +91,7 @@ SOFTWARE.
 
 ---
 https://github.com/benhoyt/inih
+
 Copyright (c) 2009, Ben Hoyt
 All rights reserved.
 
@@ -114,6 +119,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ---
 https://www.openssl.org/source/license.html
+
 Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -166,6 +172,7 @@ Hudson (tjh@cryptsoft.com).
 
 ---
 https://github.com/stbrumme/hash-library
+
 zlib License
 
 Copyright (c) 2014,2015 Stephan Brumme
