@@ -44,3 +44,6 @@ Conversores/H264_AVI/Release/DSH264AVI.vcxproj.FileListAbsolute.txt
 Conversores/H264_AVI/Release/DSH264AVI.ipdb
 Conversores/H264_AVI/Release/DSH264AVI.iobj
 Conversores/H264_AVI/Release/DSH264AVI.exe
+Conversores/DAV_AVI/log.txt
+*.dav
+Conversores/DAV_AVI/x64/Release/Pacote/DVRExtractor - DHFS DAV para AVI.zip

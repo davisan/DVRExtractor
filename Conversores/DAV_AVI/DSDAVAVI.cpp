@@ -5,6 +5,7 @@
 #include <Windows.h>
 #include "AppSettings.h"
 #include "cxxopts.hpp"
+#include <io.h>
 
 #define STREAME_FILE 1
 
@@ -50,7 +51,7 @@ typedef DWORD(__stdcall* PLAY_GetSourceBufferRemain)(LONG);
 
 void PrintHeader()
 {
-    printf("DAHUA DAV to AVI/MP4 Converter %s\nby Davi Santos - %s\n\n", AppSettings::APPVERSION, AppSettings::ContactEmail);
+    printf("DAHUA DAV to AVI/MP4 Converter %s\nby Davi Santos\n\n", AppSettings::APPVERSION);
 }
 
 int main(int argc, char** argv)
@@ -96,7 +97,19 @@ int main(int argc, char** argv)
         return 0;
     }
 
+    int fd = _dup(1);
+    FILE* pStream = 0;
+    if(fopen_s(&pStream, "log.txt", "w") != 0)
+    {
+        printf("Error creating log file\n");
+        return -1;
+    }
+    _dup2(_fileno(pStream), 1);
     HINSTANCE dll = LoadLibraryA("./dhplay.dll");
+    fflush(stdout);
+    fclose(pStream);
+    _dup2(fd, 1);
+
     if (dll == 0)
     {
         printf("Unable to load the dhplay.dll library!");
