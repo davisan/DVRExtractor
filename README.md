@@ -5,6 +5,8 @@ Ferramenta para extração de dados de DVR dos sitemas de arquivos DHFS4.1, WFS0
 
 Atenção: FFMPEG não está incluído no pacote. É preciso realizar o download e adicionar na mesma pasta do DVRExtractor ou no path do sistema.
 
+Requisitos Mínimos: Windows 10+, processador Intel/AMD 64 bits, 8GB de RAM, 2 GB de de armazenamento de dados + espaço dos arquivos a serem extraídos.
+
 ## References:
 > Shimabuko A., (2013) Recuperação de vídeo em equipamento DVR. XXII Congresso Nacional de Criminalística. 2013.
 
